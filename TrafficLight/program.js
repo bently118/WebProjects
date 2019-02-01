@@ -1,3 +1,6 @@
+//Travis Smith
+//https://github.com/bently118/WebProjects/tree/master/TrafficLight
+
 const redColorOff = "#4d0000";
 const yellowColorOff = "#4d4d00";
 const greenColorOff = "#0f3d0f";
