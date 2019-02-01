@@ -3,19 +3,27 @@ Travis Smith
 https://github.com/bently118/WebProjects/tree/master/TrafficLight
 */
 
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .stoplight {
   background-color: black;
   display: flex;
   flex-direction: column;
   align-items: center;
   height: 500px;
-  width: 300px;
-  border-radius: 10px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px grey;
 }
 
 .light {
   height: 50%;
-  width: 50%;
+  width: 70%;
   border-radius: 50%;
   margin: 0.3em;
 }
